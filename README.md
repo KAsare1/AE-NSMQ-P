@@ -35,21 +35,6 @@ The AI-Powered NSMQ Quiz Application is designed to help high school students pr
   - STT: For converting spoken language into text.
   - TTS: For converting text into spoken audio.
 
-## Project Structure
-.
-├── frontend # Frontend codebase
-│ ├── src # Source files
-│ ├── public # Public files
-│ ├── package.json # Node dependencies
-│ ├── vite.config.js # Vite configuration
-│ └── ...
-├── backend # Backend codebase
-│ ├── app # Application logic
-│ ├── models # Data models
-│ ├── main.py # FastAPI application entry point
-│ ├── requirements.txt # Python dependencies
-│ └── ...
-└── README.md # Project documentation
 
 
 ## Installation
