@@ -1,7 +1,7 @@
 # AI-Powered NSMQ Quiz Application
 
 ## Description
-The AI-Powered NSMQ Quiz Application is designed to help high school students prepare for the National Science and Maths Quiz (NSMQ). This application leverages advanced technologies such as natural language processing (NLP) and speech-to-text (STT) to provide an immersive and interactive learning experience. The system features adaptive learning paths, personalized feedback, and realistic quiz simulations to enhance students' preparation for the competition.
+The AI-Powered NSMQ Quiz Application is designed to help high school students prepare for the National Science and Maths Quiz (NSMQ). Utilizing advanced technologies such as Natural Language Processing (NLP), Speech-to-Text (STT), and Text-to-Speech (TTS), this application provides an immersive and interactive learning experience. The system features adaptive learning paths, personalized feedback, and realistic quiz simulations to enhance students' preparation for the competition.
 
 ## Table of Contents
 - [Description](#description)
@@ -15,24 +15,62 @@ The AI-Powered NSMQ Quiz Application is designed to help high school students pr
 - [License](#license)
 
 ## Features
-- Realistic quiz simulations with a timer
-- Adaptive learning paths and personalized feedback
-- Speech-to-text and text-to-speech functionalities
-- Interactive user interface for practice and tournament modes
-- Audio recording and transcription for answer submissions
+- **Realistic Quiz Simulations**: Timed quizzes that mimic the NSMQ competition environment.
+- **Adaptive Learning Paths**: Personalized feedback and adaptive question paths based on performance.
+- **Speech Interaction**: Integration of speech-to-text and text-to-speech for interactive learning.
+- **Practice and Tournament Modes**: Separate modes for practice and competitive preparation.
+- **Audio Recording and Transcription**: Allows users to answer questions through audio inputs, enhancing the realistic feel of a quiz competition.
 
 ## Technologies Used
-- **Frontend:**
-  - React
-  - Tailwind CSS
-  - Vite
-  - Tauri
-- **Backend:**
-  - FastAPI
-  - Python
-- **Machine Learning:**
-  - Natural Language Processing (NLP)
-  - Speech-to-Text (STT)
-  - Text-to-Speech (TTS)
+- **Frontend**:
+  - React: For building the user interface.
+  - Tailwind CSS: For styling.
+  - Vite: As a build tool.
+  - Tauri: For wrapping the application into a desktop application.
+- **Backend**:
+  - FastAPI: To handle backend services.
+  - Python: Programming language used.
+- **Machine Learning**:
+  - NLP: For processing and understanding human language.
+  - STT: For converting spoken language into text.
+  - TTS: For converting text into spoken audio.
 
 ## Project Structure
+.
+├── frontend # Frontend codebase
+│ ├── src # Source files
+│ ├── public # Public files
+│ ├── package.json # Node dependencies
+│ ├── vite.config.js # Vite configuration
+│ └── ...
+├── backend # Backend codebase
+│ ├── app # Application logic
+│ ├── models # Data models
+│ ├── main.py # FastAPI application entry point
+│ ├── requirements.txt # Python dependencies
+│ └── ...
+└── README.md # Project documentation
+
+
+## Installation
+
+### Prerequisites
+- Node.js and npm
+- Python 3 and pip
+- Virtual environment (optional but recommended)
+
+### Frontend Installation
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend Installation
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
