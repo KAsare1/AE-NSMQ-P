@@ -1,0 +1,47 @@
+# .gitignore file for the project
+
+# Ignore node_modules in frontend
+/frontend/node_modules
+/frontend/.yarn-integrity
+/frontend/.parcel-cache
+
+# Ignore build output in frontend
+/frontend/dist
+/frontend/build
+/frontend/.next
+/frontend/out
+/frontend/.cache
+/frontend/.nuxt
+/frontend/.vuepress/dist
+
+# Ignore tauri build output
+/frontend/src-tauri/target
+/frontend/src-tauri/Cargo.lock
+/frontend/src-tauri/Cargo.toml.orig
+/frontend/src-tauri/src
+
+# Ignore virtual environment in backend
+/backend/virtualenv
+/backend/virtualenv/*
+!/backend/virtualenv/bin
+!/backend/virtualenv/lib
+!/backend/virtualenv/include
+
+# Ignore Python cache files in backend
+/backend/__pycache__
+/backend/*.py[cod]
+/backend/env
+
+# Ignore common editor directories and files
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
