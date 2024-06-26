@@ -59,3 +59,11 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
+
+
+## Sceenshots
+![AI-stien_1](https://github.com/KAsare1/AE-NSMQ-P/assets/111601374/993d90e7-b284-4567-a0a1-5dda258c112f)
+
+![AI-stien_2](https://github.com/KAsare1/AE-NSMQ-P/assets/111601374/fc9b943f-e201-4d12-80b1-6f15dd7bf3a1)
+
+
